@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-import { createPublicClient, http, isAddress, namehash, parseAbi, type Address } from 'viem';
-import { base, mainnet } from 'viem/chains';
+import { createPublicClient, http, isAddress, type Address } from 'viem';
+import { base } from 'viem/chains';
 
 const BASENAME = 'allianceforward.base.eth';
 const BASE_RPC = 'https://mainnet.base.org';
